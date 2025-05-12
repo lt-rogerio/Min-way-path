@@ -42,7 +42,7 @@ out int[] weights;  // Tamanho E: armazena, para cada aresta, o peso A[i][j]
 
 ## 4. Exemplo visual
 
-Para garantir que tudo está funcionando conforme o esperado, utilizei um grafo de exemplo com cinco nós:
+Segue abaixo um grafo de exemplo com cinco nós:
 
 ```plaintext
      (1)
