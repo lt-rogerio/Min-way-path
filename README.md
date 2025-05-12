@@ -1,11 +1,13 @@
-## Leitura do Arquivo de Grafo
+# Relatório de atividades - CC0328
+
+## 1. Leitura do Arquivo de Grafo
 
 Um dos principais desafios que precederam a implementação dos algoritmos foi a leitura do arquivo de grafo. Não havia garantia de que as arestas estivessem organizadas em uma ordem específica, nem era possível prever quantas conexões cada vértice teria. Diante dessa imprevisibilidade, busquei uma estrutura de dados que:
 
 * **Economizasse memória**, já que grafos de ruas costumam ser esparsos (a maioria dos nós tem poucas arestas).
 * **Agrupasse rapidamente** todas as conexões de um nó, mesmo quando as arestas chegassem completamente embaralhadas.
 
-## Estrutura de Dados Escolhida
+## 2. Estrutura de Dados Escolhida
 
 **Compressed Row Storage (CRS)**
 
@@ -38,7 +40,7 @@ out int[] weights;  // Tamanho E: armazena, para cada aresta, o peso A[i][j]
 
 ---
 
-## 4. Testes e Validação
+## 4. Exemplo visual
 
 Para garantir que tudo está funcionando conforme o esperado, utilizei um grafo de exemplo com cinco nós:
 
